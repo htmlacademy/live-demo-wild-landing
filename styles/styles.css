@@ -61,6 +61,12 @@ img {
   text-decoration: none;
   font-size: 25px;
   font-weight: 500;
+  transition: color 0.15s ease-in;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #406343;
 }
 
 .nav__link-current {
@@ -92,6 +98,16 @@ img {
   align-items: center;
   padding: 0;
   cursor: pointer;
+}
+
+.controls__button svg {
+  fill: #ffffff;
+  transition: fill 0.15s ease-in;
+}
+
+.controls__button:hover svg,
+.controls__button:focus svg {
+  fill: #406343;
 }
 
 /* BEAST */
@@ -166,3 +182,14 @@ img {
   border-radius: 20px;
   cursor: pointer;
 }
+
+.button svg {
+  fill: #ffffff;
+  transition: fill 0.15s ease-in;
+}
+
+.button:hover svg,
+.button:focus svg {
+  fill: #FFCC00;
+}
+
