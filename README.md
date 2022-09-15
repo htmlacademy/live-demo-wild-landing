@@ -6,3 +6,5 @@
 - [Тренажёры](https://htmlacademy.ru/courses/basic-html-css)
 - [Учебник](https://developer.mozilla.org/ru/docs/Web)
 - [Пошаговая демонстрация](https://htmlacademy.ru/demos/93#1)
+- [Слова, часто используемые в CSS-классах](https://github.com/yoksel/common-words)
+- [Шрифты](https://fonts.google.com/specimen/Poppins?query=poppins)

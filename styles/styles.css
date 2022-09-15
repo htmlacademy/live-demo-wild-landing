@@ -133,6 +133,11 @@ img {
   position: absolute;
   top: 333px;
   left: 312px;
+  transition: transform 0.3s ease-in;
+}
+
+.promo__text-lion:hover {
+  transform: scale(0.95);
 }
 
 .promo__text {
