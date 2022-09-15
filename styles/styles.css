@@ -14,6 +14,7 @@ body {
   margin: 0 auto;
   width: 1920px;
   height: 1080px;
+  position: relative;
 }
 
 img {
@@ -37,9 +38,9 @@ img {
 /* HEADER */
 .header {
   position: absolute;
-  top: 44px;
-  left: 50%;
-  margin-left: -910px;
+  top: 32px;
+  left: 44px;
+  right: 44px;
   z-index: 1;
   width: 1820px;
   display: flex;
@@ -47,8 +48,8 @@ img {
   align-items: center;
 }
 
-/* NAV */
-.nav__list {
+/* navigation */
+.navigation__list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -56,24 +57,24 @@ img {
   list-style-type: none;
 }
 
-.nav__link {
-  color: inherit;
+.navigation__link {
+  color: #ffffff;
   text-decoration: none;
   font-size: 25px;
   font-weight: 500;
   transition: color 0.15s ease-in;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: #406343;
 }
 
-.nav__link-current {
+.navigation__link--current {
   position: relative;
 }
 
-.nav__link-current::before {
+.navigation__link--current::before {
   content: "";
   width: 100%;
   height: 10px;
@@ -86,6 +87,12 @@ img {
 .controls {
   display: flex;
   gap: 0 35px;
+}
+
+.controls {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .controls__button {
@@ -110,43 +117,43 @@ img {
   fill: #406343;
 }
 
-/* BEAST */
-.beast {
+/* promo */
+.promo {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.beast__image {
+.promo__image {
   width: 100%;
   display: block;
 }
 
-.beast__text-lion {
+.promo__text-lion {
   position: absolute;
   top: 333px;
   left: 312px;
 }
 
-.beast__text {
+.promo__text {
   position: absolute;
   top: 670px;
   right: 147px;
   width: 429px;
 }
 
-.beast__text h2 {
+.promo__text h2 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 18px;
 }
 
-.beast__text p {
+.promo__text p {
   color: rgba(179, 179, 179, 0.8);
   margin-top: 0;
 }
 
-.beast__controls {
+.promo__controls {
   display: flex;
   flex-direction: column;
   gap: 13px 0;
@@ -158,7 +165,7 @@ img {
   margin-left: -190px;
 }
 
-.beast__scroll {
+.promo__scroll {
   width: 69px;
   height: 69px;
   background-image: url(../images/mouse.svg);
